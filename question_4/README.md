@@ -17,10 +17,21 @@ Este projeto é um exemplo simples de como estruturar um projeto Python com múl
 
 ## Instalação
 
-1. python3 -m venv .venv
+1. Clonar repositório:
+   ```bash
+   git clone https://github.com/GabrielZacchi/teste_autoglass.git
+   cd question_4
+
+2. Criar ambiente virtual:
+   ```bash
+   python -m venv .venv
    source .venv/bin/activate  # No Windows: .venv\Scripts\activate
 
-2. pip install -r requirements.txt
+2. Instalar repositórios:
+   ```bash
+   pip install -r requirements.txt
 
 ## Executar
-- python main.py
+
+```bash
+python main.py
