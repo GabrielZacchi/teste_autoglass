@@ -1,0 +1,2 @@
+O código envia uma requisição POST para um endpoint do GitHub (https://api.github.com/some/endpoint). 
+O programa utiliza a biblioteca requests e configura um cabeçalho (headers) com um corpo JSON (payload) com valores de exemplo como parâmetro da requisição. Em seguida, ele verifica o código de status obtido pela requisição e, caso seja 200 (sucesso), o programa decodifica o conteudo da resposta (content) em formato JSON utilizando a biblioteca json e imprime o resultado.

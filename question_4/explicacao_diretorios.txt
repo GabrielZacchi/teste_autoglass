@@ -1,0 +1,11 @@
+| .venv           # Ambiente virtual que isola as dependências do projeto
+| assets          # Pasta para armazenar recursos do projeto, como imagens, json, etc.
+| src/
+    __init__.py   # Indica que "src" é um pacote Python, permitindo a importação de módulos
+    ola_mundo.py  # Contém a função "ola_mundo", que será chamada a partir de "main.py"
+| logs/
+    logs.log      # Arquivo para armazenar logs de execução
+| main.py         # Arquivo principal que executa o código e importa a função "ola_mundo"
+| .gitignore      # Arquivo que lista os arquivos/pastas a serem ignorados pelo Git
+| requirements.txt # Lista as dependências do projeto para instalação com pip
+| README.md       # Arquivo de documentação do projeto
